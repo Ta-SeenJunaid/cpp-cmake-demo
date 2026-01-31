@@ -1,0 +1,33 @@
+# --- Build Directories ---
+/build/
+/cmake-build-*/
+
+# --- CMake Generated Files (Safety net if you run cmake in root) ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CtestTestfile.cmake
+
+# --- Compiled Binaries & Libraries ---
+*.o
+*.obj
+*.exe
+*.out
+# Shared libraries
+*.dll
+*.so
+*.dylib
+# Static libraries (Added this!)
+*.a
+*.lib
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+*.user
+*.suo
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
